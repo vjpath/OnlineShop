@@ -10,7 +10,7 @@ public class DBConnect {
 		Connection con=null;
 		try {
 		Class.forName("org.h2.Driver");
-		con=DriverManager.getConnection("jdbc:h2:tcp://localhost/~/prathamesh","sa","sa");
+		con=DriverManager.getConnection("jdbc:h2:tcp://localhost/~/vijay","sa","sa");
 
 
 		
